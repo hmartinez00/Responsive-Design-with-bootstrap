@@ -1,5 +1,9 @@
 # Responsive-Design-with-bootstrap
-Responsive Design with bootstrap
+
+Resumen:
+Trataremos de convertir este proyecto en una hoja de resumen
+de las tecnologias HTML y CSS orientado a diseño responsivo con Bootstrap
+El framework CSS mas popular a la fecha
 
 Links de referencia:
 1. https://www.w3schools.com/html/default.asp
