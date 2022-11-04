@@ -1,0 +1,9 @@
+body {
+    /* background-color: lightblue;
+    opacity: 0.6; */
+    background: rgba(0, 128, 0, 0.3)
+  }
+
+p {
+margin: 25px 50px 75px 100px;
+}
