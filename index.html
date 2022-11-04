@@ -6,22 +6,64 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <!-- Titulo de la pagina -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
      <title>Responsive Design with Bootstrap</title>
 </head>
 <body>
-     <header>
-          <!-- El entorno es el header -->
-          <!-- Se ha utilizado una etiqueta de titulo h1 -->
-          <!-- Las otras etiquetas son h2,h3...h6 -->
-          <h1>Esto es un diseño responsivo</h1>
-     </header>
-     <nav>
-          <h2>Menú</h2>
-          <a href="not-responsive.html">Ir a diseño No Responsivo</a>
-          <a href="flexbox.html">flexbox</a>
-          <a href="grid-bootstrap.html">La Grid Bootstrap</a>
-          <a href="Api Drag and Drop.html">Api Drag and Drop</a>
-     </nav>
+
+     <div class="container">
+
+          <div class="row">               
+               <header>
+                    <!-- El entorno es el header -->
+                    <!-- Se ha utilizado una etiqueta de titulo h1 -->
+                    <!-- Las otras etiquetas son h2,h3...h6 -->
+                    <h1>Esto es un diseño responsivo</h1>
+               </header>
+          </div>
+          
+          <div class="row">
+               <nav>
+                    <h2>Menú</h2>
+                    <a href="not-responsive.html">Ir a diseño No Responsivo</a>
+               </nav>
+          </div>
+          
+          <div class="row">              
+               <section>
+                    <div class="row">
+                         <div class="col">
+                              <article>
+                                   <h2>Entorno Artículo</h2>
+                                   Cupidatat nisi eiusmod ipsum duis et ullamco labore id ipsum aute minim aliquip. Est Lorem pariatur ea duis culpa consectetur amet esse. Cillum irure adipisicing et consectetur id anim do excepteur dolore ad do. Aliquip ullamco mollit aliqua elit nulla ut reprehenderit labore labore veniam eiusmod quis. Est pariatur consectetur exercitation sunt pariatur eiusmod irure sit anim ex velit eiusmod. Elit elit pariatur laboris occaecat. Anim est irure duis nisi.
+                              </article>
+                         </div>
+                         <div class="col">
+                              <aside>
+                                   <h2>Entorno Aside</h2>
+                                   <a href="flexbox.html">flexbox</a>
+                                   <a href="grid-bootstrap.html">La Grid Bootstrap</a>
+                                   <a href="Api Drag and Drop.html">Api Drag and Drop</a>
+                              </aside>
+                         </div>
+                    </div>
+               </section>
+
+          </div>
+
+          <div class="row">
+
+               <footer>
+                    <small>
+                         Entorno Footer
+                    </small>
+               </footer>
+
+          </div>
+
+     </div>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </body>
 </html>
